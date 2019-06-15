@@ -96,6 +96,7 @@ namespace Number3
             double result = 0;
             do
             {
+
                 string inp = Console.ReadLine();
                 // если случайно поставили точку вместо запятой, заменим ее
                 inp = inp.Replace(".", ",");
